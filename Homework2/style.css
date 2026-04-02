@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header{
+    background-color: rgb(30, 97, 128);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.phone{
+    text-align: right;
+}
+
+.btn{
+    display: inline-block;
+    background-color: darkturquoise;
+    color: aliceblue;
+     padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.banner {
+    background-image: url("b.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#main-con{
+    margin-top: 20px;
+   padding: 10px;
+   font-size: 20px;
+   background-color: rgb(81, 117, 117);
+    justify-content: space-between;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#fr-con{
+  display: flex;
+   background-color: rgb(81, 117, 117);
+}
+
+.left-con {
+    width: 5%;
+    padding: 20px;
+}
+
+.mid-con {
+    width: 90%;
+    padding: 20px; 
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-item{
+     background-color: rgb(14, 54, 66);
+     padding: 10px;
+     text-align: left;
+     color: rgb(255, 255, 255);
+     border: 1px;
+}
+
+.ttl{
+    text-align: left;
+    background-color: rgb(124, 214, 168);
+    color: black;
+}
+
+.right-con {
+    width: 5%;
+    padding: 20px;
+}
+
+#sec-con{
+    margin-top: 20px;
+   padding: 10px;
+   size: 20px;
+   background-color: lightblue;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(36, 33, 33);
+}
+
+.ttltwo{
+      text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+table{
+    background-color: darkslategrey;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 40px;
+ color: aliceblue;
+ width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
